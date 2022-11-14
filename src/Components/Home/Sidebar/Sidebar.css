@@ -1,5 +1,5 @@
 .Sidebar{
-    flex:0.2;
+    flex:0.15;
     padding:1rem 2rem;
 }
 .Sidebar__twitter-icon{
@@ -7,5 +7,17 @@
     margin-bottom: 1rem;
 }
 .sidebar_tweet{
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    padding:0.5rem;
+    width:60%;
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sidebar_tweet:hover{
+    background-color: rgb(13, 83, 129);
+    font-size: 16px;
+    cursor:pointer;
 }

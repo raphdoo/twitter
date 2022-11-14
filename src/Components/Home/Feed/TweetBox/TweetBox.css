@@ -1,0 +1,59 @@
+.tweetbox{
+    margin-top: 1rem;
+    border-bottom: 1px solid var(--border_line);
+    padding-bottom: 0.5rem;
+}
+.tweetbox_form{
+    display: flex;
+}
+.tweetbox_form-field{
+    padding:0.3rem 1rem;
+    flex:1;
+
+}
+.textbox_input{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.textbox_input input{
+    width: 100%;
+    padding:0.2rem;
+    border-bottom: 1px solid var(--border_line);
+    height:3rem;
+    margin-bottom: 1rem;
+    background-color: black;
+    font-size: 1.3rem;
+}
+
+.textbox_input input::placeholder{
+    font-size: 1.3rem;
+    color: var(--secondary_font_color)
+}
+.textbox_input button{
+    padding:0.5rem;
+    width:20%;
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.textbox_icons{
+    color: rgb(29, 155, 240)
+}
+.textbox_icon{
+    margin-left: 0.5rem;
+    cursor:pointer;
+    padding:5px
+}
+.textbox_icon:hover{
+    background-color: rgb(28, 27, 27);
+    border-radius: 25%;
+}
+.textbox_input button:hover{
+    background-color: rgb(13, 83, 129);
+    font-size: 16px;
+    cursor:pointer;
+}

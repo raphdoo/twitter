@@ -1,4 +1,8 @@
 .feed{
     flex:0.5;
-    background-color: red;
+    border-left:0.8px solid var(--border_line);
+    padding-left: 15px;
+}
+.feed_header h2{
+    font-size: 1.3rem;
 }
