@@ -1,0 +1,11 @@
+.Sidebar{
+    flex:0.2;
+    padding:1rem 2rem;
+}
+.Sidebar__twitter-icon{
+    font-size: 2rem !important;
+    margin-bottom: 1rem;
+}
+.sidebar_tweet{
+    margin-top: 2rem;
+}
