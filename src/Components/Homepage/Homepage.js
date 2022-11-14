@@ -16,19 +16,20 @@ const Homepage = () => {
             className="homepage_main-logo"
             src={CloseBtn}
             style={{ height: "20px", width: "20px" }}
+            alt="close button"
           /></div>
             </div>
             <div className="logoImg"><img
             className="homepage_main-logo"
             src={Logo}
-            
+            alt="twitter logo"
           /></div>
         </div>
         <div className="homepage_main_body">
           <h1 className="homepage_main--subtitle">Join Twitter today</h1>
           <div className="homepage_main--btns">
-            <button className="btn-primary"><p><img src={AppleLogo} style={{height:"15px", width:"15px"}}></img>  Sign up with Google</p></button>
-            <button className="btn-primary"><p><img src={GoogleLogo} style={{height:"14px", width:"18px"}}></img>  Sign up with Apple</p></button>
+            <button className="btn-primary"><p><img src={AppleLogo} style={{height:"15px", width:"15px"}} alt="apple logo"></img>  Sign up with Google</p></button>
+            <button className="btn-primary"><p><img src={GoogleLogo} style={{height:"14px", width:"18px"}} alt="google logo"></img>  Sign up with Apple</p></button>
             <p className="or">or</p>
             <button className="btn-secondary">
               <p>Sign up with phone or email</p>
