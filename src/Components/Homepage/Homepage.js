@@ -1,31 +1,52 @@
-import React from 'react';
-import './Homepage.css'
-import Logo from '../../assets/logo/twitter_logo.png';
-import HomeImage from '../../assets/images/twitter_home.png';
+import React from "react";
+import "./Homepage.css";
+import Logo from "../../assets/logo/twitter_logo.png";
+import CloseBtn from "../../assets/images/close_btn.png";
+
+import AppleLogo from "../../assets/logo/Apple_logo.svg"
+import GoogleLogo from "../../assets/logo/Google_logo.png"
 
 const Homepage = () => {
   return (
-    <div className='home'>
-         {/* <div className='home_left'>
-            <img className='home_left--img' src={HomeImage} />
-         </div> */}
-         <div className='home_right'>
-         <img className='home_right' src={Logo} style={{height:'40px', width:'40px'}}/>
-         <h1 className='home_right--title'>Happening now</h1>
-         <h1 className='home_right--subtitle'>Join Twitter today</h1>
-         <div className='home-right--auth_buttons'>
-            <button>Sign up with Google</button>
-            <button>Sign up with Apple</button>
-            <button>Sign up with phone or email</button>
-            <p className='policies'>
-                By sigining up, you agree to the <a>Terms of Service</a> and Privacy Policy,
-                including Cookie use.
-            </p>         
-         </div>
-         </div>
+    <div className="homepage">
+      <div className="homepage_main">
+        <div className="homepage_main_topBtns">
+            <div className="closeBtnArea">
+            <div className="closeBtn"><img
+            className="homepage_main-logo"
+            src={CloseBtn}
+            style={{ height: "20px", width: "20px" }}
+          /></div>
+            </div>
+            <div className="logoImg"><img
+            className="homepage_main-logo"
+            src={Logo}
+            
+          /></div>
+        </div>
+        <div className="homepage_main_body">
+          <h1 className="homepage_main--subtitle">Join Twitter today</h1>
+          <div className="homepage_main--btns">
+            <button className="btn-primary"><p><img src={AppleLogo} style={{height:"15px", width:"15px"}}></img>  Sign up with Google</p></button>
+            <button className="btn-primary"><p><img src={GoogleLogo} style={{height:"14px", width:"18px"}}></img>  Sign up with Apple</p></button>
+            <p className="or">or</p>
+            <button className="btn-secondary">
+              <p>Sign up with phone or email</p>
+            </button>
+            <p className="homepage_main--policies">
+              By sigining up, you agree to the <a href="#">Terms of Service</a>{" "}
+              and <a href="#">Privacy Policy</a> including{" "}
+              <a href="#">Cookie Use</a>.
+            </p>
+          </div>
+          <div className="homepage_main--btns">
+            <h3>Already have an account? <a href="#">Sign in</a></h3>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
-}
+};
 
 export default Homepage;
- 
