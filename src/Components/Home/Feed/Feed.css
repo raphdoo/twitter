@@ -1,8 +1,9 @@
 .feed{
     flex:0.5;
     border-left:0.8px solid var(--border_line);
-    padding-left: 15px;
+    border-right:0.8px solid var(--border_line);
 }
 .feed_header h2{
     font-size: 1.3rem;
+    margin-left: 15px;
 }

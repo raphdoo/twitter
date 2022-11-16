@@ -11,6 +11,7 @@ body {
   font-size: 12px;
   --secondary_font_color: rgb(113, 118, 123);
   --border_line: rgb(42, 43, 44);
+  --tertiary-color: rgb(29, 155, 240);
 }
 
 code {

@@ -1,4 +1,90 @@
 .widget{
     flex:0.35;
-    background-color: yellow;
+    margin:1rem;
 }
+.widget_searchbox{
+    width: 80%;
+    display: flex;
+    background-color: rgb(39, 38, 38);
+    font-size: 1rem;
+    border-radius: 25px;
+    padding: 0.6rem;
+}
+.widget_search-icon{
+    margin: 0 0.3rem;
+    background-color: var(--secondary_font_colour) !important;
+
+}
+.widget_searchbox input{
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    font-size: 1.2rem;
+    margin-left: 0.3rem;
+    padding: 0.2rem 0;
+}
+.widget_searchbox:hover{
+    border: 1px solid var(--tertiary-color);
+    background: transparent;
+}
+.widget_searchbox input:focus{
+    background: black;
+}
+.widget_searchbox input::placeholder{
+    font-size: 1.2rem;
+}
+.follow_suggestion_box{
+    width: 85%;
+    background-color: rgb(39, 38, 38);
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 25px;
+
+}
+.follow_suggestion_header{
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+}
+.follow_suggestions{
+    display: flex;
+    padding:1rem 0;
+}
+.follow_suggestions:hover{
+    background-color: rgb(51, 50, 50);
+    cursor: pointer;  
+}
+.follow_suggestion-avatar{
+    margin-left: 1rem;
+}
+.follow_suggestion-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.follow_suggestion-text h3,
+.follow_suggestion-text h4{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+.follow_suggestion-text h4{
+    font-size: 1rem;
+    color: rgb(95, 92, 92);
+    font-weight: 500;
+}
+.follow_suggestion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 1rem;
+}
+.follow_suggestion-btn{
+    padding:0.3rem 1.1rem;
+    font-size: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.follow_suggestion-btn:hover{
+    background-color: rgb(230, 227, 227);
+}
+

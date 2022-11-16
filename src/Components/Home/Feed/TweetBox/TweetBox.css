@@ -5,6 +5,7 @@
 }
 .tweetbox_form{
     display: flex;
+    margin-left: 15px;
 }
 .tweetbox_form-field{
     padding:0.3rem 1rem;
@@ -25,6 +26,7 @@
     margin-bottom: 1rem;
     background-color: black;
     font-size: 1.3rem;
+    overflow-wrap: break-word;
 }
 
 .textbox_input input::placeholder{
@@ -44,13 +46,13 @@
     color: rgb(29, 155, 240)
 }
 .textbox_icon{
-    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     cursor:pointer;
-    padding:5px
+    padding:0.5rem;
 }
 .textbox_icon:hover{
     background-color: rgb(28, 27, 27);
-    border-radius: 25%;
+    border-radius: 50%;
 }
 .textbox_input button:hover{
     background-color: rgb(13, 83, 129);
